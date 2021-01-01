@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    background:#333;
+}
+/*
+.navbar ul{
+    float: right;
+    margin-right: 120px;
+    text-align: center;
+}
+.navbar ul li{
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    text-align: center;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+    background:grey;
+    border-radius: 2px;
+} */
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.navbar li {
+    float: right;
+  }
+  
+.navbar li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar li :hover {
+    background-color: #111;
+  }
+
+.navbar h1 {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.centre h1{
+    float: center;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.centre h2{
+    color: white;
+    font-size: 45px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+.centre .buttons{
+    margin: 35px 270px;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: grey;
+    border: 1px solid grey;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+.buttons button:hover{
+    background: white;
+}
+
+.footer{
+    background-color: black;
+    background-size: cover;
+    height: 10vh;
+    color:white;
+    text-align: center;
+
+}
+.footer strong{
+    color: white;
+}
+  
